@@ -77,8 +77,9 @@ h1 {
 
 #seta {
     position: relative;
-    bottom: 9vw;
+    bottom: 8.5vw;
     width: 5vw;
+    margin-bottom: 5vw;
 }
 
 .coisas{
