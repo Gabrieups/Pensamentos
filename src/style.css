@@ -76,7 +76,8 @@ h1 {
 }
 
 #seta {
-    margin-top: 9vw;
+    position: relative;
+    bottom: 9vw;
     width: 5vw;
 }
 
