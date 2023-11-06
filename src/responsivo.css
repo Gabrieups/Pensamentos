@@ -97,11 +97,19 @@
         display: flex;
         width: 25vw;
         border-radius: 50%;
+        box-shadow: 0 0 1vw 0.2vw #efb810;
+        transition: .4s ease-in-out;
     }
+
+    .coisas img:hover{
+        transform: scale(1.03);
+    }
+    
 
     .coisas button{
         background-color: rgb(10, 10, 10, 0);
         border: none;
+        cursor: pointer;
     }
 
     .txtcoisas{

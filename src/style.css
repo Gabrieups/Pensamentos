@@ -97,6 +97,7 @@ h1 {
 .coisas button{
     background-color: rgb(10, 10, 10, 0);
     border: none;
+    cursor: pointer;
 }
 
 .txtcoisas{
