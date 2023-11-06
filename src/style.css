@@ -101,10 +101,11 @@ h1 {
 
 .txtcoisas{
     color: #fff;
-    font-size: .8vw;
+    font-size: 1.4vw;
     gap: 8vw;
     align-items: center;
     text-align: center;
+    width: 22vw;
 }
 
 #txtBolsa{

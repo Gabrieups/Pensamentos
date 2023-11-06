@@ -106,9 +106,10 @@
 
     .txtcoisas{
         color: #fff;
-        font-size: 6vw;
+        font-size: 4.5vw;
         text-align: center;
         position: relative;
+        width: 50vw;
     }
 
     #txtBolsa{
