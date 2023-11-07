@@ -22,7 +22,8 @@ const quotes = [
     "Todo segundo de tempo passado com você é precioso.",
     "Nunca me canso de você.",
     "É impossível não gostar de você",
-    "Amo você"
+    "Amo você",
+    "Somtera, cansada ,ve uva ou desvorseada ?"
 ];
 
 const nextButton = document.getElementById("nextButton");

@@ -76,8 +76,10 @@ h1 {
 }
 
 #seta {
-    margin-top: 9vw;
+    position: relative;
+    top: 8vw;
     width: 5vw;
+    margin-bottom: 5vw;
 }
 
 .coisas{
@@ -90,19 +92,27 @@ h1 {
 .coisas img{
     width: 6vw;
     border-radius: 50%;
+    box-shadow: 0 0 1vw 0.2vw #efb810;
+    transition: .4s ease-in-out;
+}
+
+.coisas img:hover{
+    transform: scale(1.03);
 }
 
 .coisas button{
     background-color: rgb(10, 10, 10, 0);
     border: none;
+    cursor: pointer;
 }
 
 .txtcoisas{
     color: #fff;
-    font-size: .8vw;
+    font-size: 1.4vw;
     gap: 8vw;
     align-items: center;
     text-align: center;
+    width: 22vw;
 }
 
 #txtBolsa{
@@ -119,4 +129,3 @@ h1 {
     opacity: 0;
     transition: .5s;
 }
-
