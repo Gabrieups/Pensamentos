@@ -7,7 +7,7 @@ const quotes = [
     "Sua presença torna o mundo mais bonito.",
     "Seu olhar é como um convite para o paraíso.",
     "Sua inteligência é inspiradora.",
-    "Você é uma graça.",
+    "Minha gatinha.",
     "Você é a pessoa mais determinada que já conheci.",
     "Você é essencialmente especial.",
     "Você existir é como um abraço acolhedor.",
@@ -22,7 +22,8 @@ const quotes = [
     "Nunca me canso de você.",
     "É impossível não gostar de você",
     "Amo você",
-    "Somtera, cansada ,ve uva ou desvorseada ?"
+    "Somtera, cansada ,ve uva ou desvorseada ?",
+    "Você é arte."
 ];
 
 const nextButton = document.getElementById("nextButton");
