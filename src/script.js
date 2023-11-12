@@ -1,5 +1,5 @@
 const quotes = [
-    "Seus olhos castanhos avermelhados são hipnotizantes.",
+    "Seus olhos são hipnotizantes.",
     "Sua pele é suave quanto uma brisa de manhã.",
     "Sua personalidade é única.",
     "Seu sorriso ilumina meu dia.",
