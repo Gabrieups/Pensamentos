@@ -55,6 +55,9 @@ function displayRandomQuote() {
             iframeElement.allow = allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
             iframeElement.style.alignSelf = "center"
             quoteElement.innerHTML = ''; // Limpa qualquer conteúdo anterior
+            quoteElement.style.display = "flex";
+            quoteElement.style.justifyContent = "center";
+            quoteElement.style.alignItems = "center";
             quoteElement.appendChild(iframeElement);
         } else {
             quoteElement.textContent = quoteContent;
