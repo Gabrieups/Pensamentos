@@ -23,7 +23,8 @@ const quotes = [
     "É impossível não gostar de você",
     "Amo você",
     "Somtera, cansada ,ve uva ou desvorseada ?",
-    "Você é arte."
+    "Você é arte.",
+    "I swear I changed my ways for the better, the better, 'Cause I wanna be with you forever, forever"
 ];
 
 const nextButton = document.getElementById("nextButton");
