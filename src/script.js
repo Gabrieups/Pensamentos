@@ -42,7 +42,6 @@ function displayRandomQuote() {
 
     setTimeout(function () {
         const randomIndex = Math.floor(Math.random() * quotes.length);
-        // quoteElement.textContent = quotes[randomIndex];
         const quoteContent = quotes[randomIndex];
 
         // Verifica se o conteúdo é uma URL
