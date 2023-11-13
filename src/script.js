@@ -26,6 +26,7 @@ const quotes = [
     // "Você é arte.",
     // "I swear I changed my ways for the better 'cause I wanna be with you forever",
     "https://open.spotify.com/embed/track/3dhjNA0jGA8vHBQ1VdD6vV?utm_source=generator",
+    "https://www.youtube.com/embed/LOYueoWBCiU?si=3P29VvdTMa3SA1yH"
 ];
 
 const nextButton = document.getElementById("nextButton");
