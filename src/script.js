@@ -24,7 +24,8 @@ const quotes = [
     // "Amo você",
     // "Somtera, cansada ,ve uva ou desvorseada ?",
     // "Você é arte.",
-    "I swear I changed my ways for the better, the better, 'Cause I wanna be with you forever, forever"
+    // "I swear I changed my ways for the better 'cause I wanna be with you forever",
+    'https://open.spotify.com/embed/track/3dhjNA0jGA8vHBQ1VdD6vV?utm_source=generator'
 ];
 
 const nextButton = document.getElementById("nextButton");
@@ -41,7 +42,24 @@ function displayRandomQuote() {
 
     setTimeout(function () {
         const randomIndex = Math.floor(Math.random() * quotes.length);
-        quoteElement.textContent = quotes[randomIndex];
+        // quoteElement.textContent = quotes[randomIndex];
+        const quoteContent = quotes[randomIndex];
+
+        // Verifica se o conteúdo é uma URL
+        if (isValidURL(quoteContent)) {
+            const iframeElement = document.createElement("iframe");
+            iframeElement.src = quoteContent;
+            iframeElement.width = "150%";
+            iframeElement.height = "80%";
+            iframeElement.style.border = "none";
+            iframeElement.allow = allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
+            iframeElement.style.alignSelf = "center"
+            quoteElement.innerHTML = ''; // Limpa qualquer conteúdo anterior
+            quoteElement.appendChild(iframeElement);
+        } else {
+            quoteElement.textContent = quoteContent;
+        }
+        
         quoteElement.style.opacity = 1;
         textDiv.style.opacity = 1;
         nextButton.style.opacity = 1;
@@ -49,6 +67,17 @@ function displayRandomQuote() {
         quoteElement.style.color = "#000";
         loader.style.display = "none"; // Oculta o loader após exibir a frase
     }, 1500);
+
+    function isValidURL(str) {
+        // Regex para verificar se a string é uma URL válida
+        const pattern = new RegExp('^(https?:\\/\\/)?' + // protocol
+            '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // domain name
+            '((\\d{1,3}\\.){3}\\d{1,3}))' + // OR ip (v4) address
+            '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + // port and path
+            '(\\?[;&a-z\\d%_.~+=-]*)?' + // query string
+            '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
+        return pattern.test(str);
+    }
 }
 
 nextButton.addEventListener("click", displayRandomQuote);
