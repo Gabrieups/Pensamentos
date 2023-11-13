@@ -49,11 +49,21 @@ function displayRandomQuote() {
         if (isValidURL(quoteContent)) {
             const iframeElement = document.createElement("iframe");
             iframeElement.src = quoteContent;
-            iframeElement.width = "150%";
-            iframeElement.height = "80%";
-            iframeElement.style.border = "none";
-            iframeElement.allow = allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
-            iframeElement.style.alignSelf = "center"
+            textDiv.style.backgroundColor = "0%  00  0";
+
+            if (window.innerWidth > 425 && window.innerHeight > 896){
+                iframeElement.width = "150%";
+                iframeElement.height = "80%";
+                iframeElement.style.border = "none";
+                iframeElement.allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
+            } else {
+                iframeElement.width = "230vw";
+                iframeElement.height = "100vw";
+                iframeElement.style.border = "none";
+                iframeElement.style.position = "relative";
+                iframeElement.allow = "autoplay; clipboard-write; encrypted-media; fullscreen";
+            }
+
             quoteElement.innerHTML = ''; // Limpa qualquer conteúdo anterior
             quoteElement.style.display = "flex";
             quoteElement.style.justifyContent = "center";
@@ -61,12 +71,12 @@ function displayRandomQuote() {
             quoteElement.appendChild(iframeElement);
         } else {
             quoteElement.textContent = quoteContent;
+            textDiv.style.backgroundColor = "#fff";
         }
         
         quoteElement.style.opacity = 1;
         textDiv.style.opacity = 1;
         nextButton.style.opacity = 1;
-        textDiv.style.backgroundColor = "#fff";
         quoteElement.style.color = "#000";
         loader.style.display = "none"; // Oculta o loader após exibir a frase
     }, 1500);
