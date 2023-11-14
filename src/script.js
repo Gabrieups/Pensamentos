@@ -49,7 +49,6 @@ function displayRandomQuote() {
         if (isValidURL(quoteContent)) {
             const iframeElement = document.createElement("iframe");
             iframeElement.src = quoteContent;
-            textDiv.style.backgroundColor = "0%  00  0";
 
             if (window.innerWidth > 425 && window.innerHeight > 896){
                 iframeElement.width = "150%";
@@ -69,6 +68,7 @@ function displayRandomQuote() {
             quoteElement.style.justifyContent = "center";
             quoteElement.style.alignItems = "center";
             quoteElement.appendChild(iframeElement);
+            textDiv.style.backgroundColor = "transparent";
         } else {
             quoteElement.textContent = quoteContent;
             textDiv.style.backgroundColor = "#fff";
