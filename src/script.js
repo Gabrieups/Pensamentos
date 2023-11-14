@@ -7,7 +7,6 @@ const quotes = [
     "Sua presença torna o mundo mais bonito.",
     "Seu olhar é como um convite para o paraíso.",
     "Sua inteligência é inspiradora.",
-    "Minha gatinha.",
     "Você é a pessoa mais determinada que já conheci.",
     "Você é especial.",
     "Você existir é como um abraço acolhedor.",
