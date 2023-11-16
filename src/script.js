@@ -28,7 +28,9 @@ const quotes = [
     "https://www.youtube.com/embed/LOYueoWBCiU?si=3P29VvdTMa3SA1yH",
     "Sua ausência me desespera.",
     "Você é meu sonho",
-    "I can't seem to not need to need you"
+    "I can't seem to not need to need you",
+    "I would love just to be stuck to your side
+Not with anybody else, anybody else"
 ];
 
 const nextButton = document.getElementById("nextButton");
