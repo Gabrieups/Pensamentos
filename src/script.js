@@ -29,8 +29,7 @@ const quotes = [
     "Sua ausência me desespera.",
     "Você é meu sonho",
     "I can't seem to not need to need you",
-    "I would love just to be stuck to your side
-Not with anybody else, anybody else"
+    "I would love just to be stuck to your side, not with anybody else, anybody else"
 ];
 
 const nextButton = document.getElementById("nextButton");
