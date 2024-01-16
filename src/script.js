@@ -25,7 +25,7 @@ const quotes = [
     "Você é arte.",
     "I swear I changed my ways for the better 'cause I wanna be with you forever",
     "https://open.spotify.com/embed/track/3dhjNA0jGA8vHBQ1VdD6vV?utm_source=generator",
-    "https://open.spotify.com/embed/track/5uCax9HTNlzGybIStD3vDh?utm_source=generator",
+    "https://open.spotify.com/embed/track/3w3y8KPTfNeOKPiqUTakBh?utm_source=generator",
     "https://open.spotify.com/embed/track/0GNI8K3VATWBABQFAzBAYe?utm_source=generator",
     "https://open.spotify.com/embed/track/2psRActEWsTlYYd7EDoyVR?utm_source=generator",
     "https://www.youtube.com/embed/VJ3Ynf5lysM?si=PAVNOLSkhuoGtpU1",
