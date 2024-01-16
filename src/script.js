@@ -1,5 +1,5 @@
 const quotes = [
-    "Seus olhos são hipnotizantes.",
+    /*"Seus olhos são hipnotizantes.",
     "Sua pele é suave quanto uma brisa de manhã.",
     "Sua personalidade é única.",
     "Seu sorriso ilumina meu dia.",
@@ -25,11 +25,16 @@ const quotes = [
     "Você é arte.",
     "I swear I changed my ways for the better 'cause I wanna be with you forever",
     "https://open.spotify.com/embed/track/3dhjNA0jGA8vHBQ1VdD6vV?utm_source=generator",
+    "https://open.spotify.com/embed/track/5uCax9HTNlzGybIStD3vDh?utm_source=generator",
+    "https://open.spotify.com/embed/track/0GNI8K3VATWBABQFAzBAYe?utm_source=generator",
+    "https://open.spotify.com/embed/track/2psRActEWsTlYYd7EDoyVR?utm_source=generator",
     "https://www.youtube.com/embed/LOYueoWBCiU?si=3P29VvdTMa3SA1yH",
     "Sua ausência me desespera.",
     "Você é meu sonho",
     "I can't seem to not need to need you",
-    "I would love just to be stuck to your side, not with anybody else, anybody else"
+    "I would love just to be stuck to your side, not with anybody else, anybody else",*/
+    {image: "src/elisa.jpg"},
+    {image: "src/us.jpg"}
 ];
 
 const nextButton = document.getElementById("nextButton");
@@ -48,8 +53,25 @@ function displayRandomQuote() {
         const randomIndex = Math.floor(Math.random() * quotes.length);
         const quoteContent = quotes[randomIndex];
 
+        if (typeof quoteContent === 'object' && quoteContent.hasOwnProperty('image')) {
+            // Se a citação é um objeto com 'image', trata como citação apenas com imagem
+            const quoteImage = quoteContent.image;
+
+            if (window.innerWidth > 425 && window.innerHeight > 896){
+
+                const imageSizeStyle = "max-width: 10vw; border-radius: 2vw;"
+                quoteElement.innerHTML = `<img src="${quoteImage}" alt="memoria" style="${imageSizeStyle}">`;
+                textDiv.style.backgroundColor = "transparent";
+
+            } else{          
+                const imageSizeStyle = "max-width: 50vw; border-radius: 2vw;"
+                quoteElement.innerHTML = `<img src="${quoteImage}" alt="memoria" style="${imageSizeStyle}">`;
+                textDiv.style.backgroundColor = "transparent";  
+            }
+        }
+
         // Verifica se o conteúdo é uma URL
-        if (isValidURL(quoteContent)) {
+        else if (isValidURL(quoteContent)) {
             const iframeElement = document.createElement("iframe");
             iframeElement.src = quoteContent;
 
