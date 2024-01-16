@@ -1,5 +1,5 @@
 const quotes = [
-    /*"Seus olhos são hipnotizantes.",
+    "Seus olhos são hipnotizantes.",
     "Sua pele é suave quanto uma brisa de manhã.",
     "Sua personalidade é única.",
     "Seu sorriso ilumina meu dia.",
@@ -28,11 +28,11 @@ const quotes = [
     "https://open.spotify.com/embed/track/5uCax9HTNlzGybIStD3vDh?utm_source=generator",
     "https://open.spotify.com/embed/track/0GNI8K3VATWBABQFAzBAYe?utm_source=generator",
     "https://open.spotify.com/embed/track/2psRActEWsTlYYd7EDoyVR?utm_source=generator",
-    "https://www.youtube.com/embed/LOYueoWBCiU?si=3P29VvdTMa3SA1yH",
+    "https://www.youtube.com/embed/VJ3Ynf5lysM?si=PAVNOLSkhuoGtpU1",
     "Sua ausência me desespera.",
     "Você é meu sonho",
     "I can't seem to not need to need you",
-    "I would love just to be stuck to your side, not with anybody else, anybody else",*/
+    "I would love just to be stuck to your side, not with anybody else, anybody else",
     {image: "src/elisa.jpg"},
     {image: "src/us.jpg"}
 ];
