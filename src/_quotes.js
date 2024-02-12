@@ -21,7 +21,6 @@ const quotes = [
     "Nunca me canso de você.",
     "É impossível não gostar de você",
     "Amo você",
-    "Somtera, cansada ,ve uva ou desvorseada ?",
     "Você é arte.",
     "I swear I changed my ways for the better 'cause I wanna be with you forever",
     "https://open.spotify.com/embed/track/3dhjNA0jGA8vHBQ1VdD6vV?utm_source=generator",
