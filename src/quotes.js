@@ -1,7 +1,7 @@
 const quotes = [
     "Seus olhos são hipnotizantes.",
     "Sua pele é suave quanto uma brisa de manhã.",
-    "Sua personalidade é única.",
+    "Você será para mim única. O essencial é invisível aos olhos.",
     "Seu sorriso ilumina meu dia.",
     "Cada traço do seu rosto é perfeito.",
     "Sua presença torna o mundo mais bonito.",
@@ -19,8 +19,8 @@ const quotes = [
     "Sua energia é contagiante.",
     "Todo segundo de tempo passado com você é precioso.",
     "Nunca me canso de você.",
-    "É impossível não gostar de você",
-    "Amo você",
+    "É impossível não gostar de você.",
+    "Amo você.",
     "Você é arte.",
     "I swear I changed my ways for the better 'cause I wanna be with you forever",
     "https://open.spotify.com/embed/track/3dhjNA0jGA8vHBQ1VdD6vV?utm_source=generator",
@@ -28,10 +28,12 @@ const quotes = [
     "https://open.spotify.com/embed/track/0GNI8K3VATWBABQFAzBAYe?utm_source=generator",
     "https://open.spotify.com/embed/track/2psRActEWsTlYYd7EDoyVR?utm_source=generator",
     "https://www.youtube.com/embed/VJ3Ynf5lysM?si=PAVNOLSkhuoGtpU1",
+    "Se voce vem, por exemplo, às quatro horas da tarde, desde as três eu começarei a ficar feliz",
     "Sua ausência me desespera.",
-    "Você é meu sonho",
+    "Você é meu sonho.",
     "I can't seem to not need to need you",
     "I would love just to be stuck to your side, not with anybody else, anybody else",
+    "Hoje vi as estrelas, me perdi um pouco, mas senti como se te encontrasse.",
     {image: "src/elisa.jpg"},
     {image: "src/us.jpg"}
 ];
