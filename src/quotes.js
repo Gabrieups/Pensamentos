@@ -27,6 +27,7 @@ const quotes = [
     "https://open.spotify.com/embed/track/3w3y8KPTfNeOKPiqUTakBh?utm_source=generator",
     "https://open.spotify.com/embed/track/0GNI8K3VATWBABQFAzBAYe?utm_source=generator",
     "https://open.spotify.com/embed/track/2psRActEWsTlYYd7EDoyVR?utm_source=generator",
+    "https://open.spotify.com/embed/track/7DKS0rX27cCEPsK0R6tFWS?utm_source=generator",
     "https://www.youtube.com/embed/VJ3Ynf5lysM?si=PAVNOLSkhuoGtpU1",
     "Se voce vem, por exemplo, às quatro horas da tarde, desde as três eu começarei a ficar feliz",
     "Sua ausência me desespera.",
