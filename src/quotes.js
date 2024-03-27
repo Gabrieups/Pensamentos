@@ -29,6 +29,7 @@ const quotes = [
     "https://open.spotify.com/embed/track/2psRActEWsTlYYd7EDoyVR?utm_source=generator",
     "https://open.spotify.com/embed/track/7DKS0rX27cCEPsK0R6tFWS?utm_source=generator",
     "https://open.spotify.com/embed/track/1WbhIxkn5ECsOwUm795iX1?utm_source=generator",
+    "https://open.spotify.com/embed/track/5LrN7yUQAzvthd4QujgPFr?utm_source=generator",
     "https://www.youtube.com/embed/VJ3Ynf5lysM?si=PAVNOLSkhuoGtpU1",
     "Sua ausência me desespera.",
     "Você é meu sonho.",
