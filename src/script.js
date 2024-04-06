@@ -30,7 +30,22 @@ function displayRandomQuote() {
                 textDiv.style.backgroundColor = "transparent";  
             }
         }
+        else if (typeof quoteContent === 'object' && quoteContent.hasOwnProperty('video')) {
+            // Se a citação é um objeto com 'image', trata como citação apenas com imagem
+            const quoteVideo = quoteContent.video;
 
+            if (window.innerWidth > 425 && window.innerHeight > 896){
+
+                const VideoSizeStyle = "max-width: 10vw; border-radius: .5vw"
+                quoteElement.innerHTML = `<video style="${VideoSizeStyle}" controls><source src="${quoteVideo}" type="video/mp4"></video>`;
+                textDiv.style.backgroundColor = "transparent";
+
+            } else{          
+                const VideoSizeStyle = "max-width: 50vw; border-radius: 1.5vw;"
+                quoteElement.innerHTML = `<video style="${VideoSizeStyle}" controls><source src="${quoteVideo}" type="video/mp4"></video>`;
+                textDiv.style.backgroundColor = "transparent";
+            }
+        }
         // Verifica se o conteúdo é uma URL
         else if (isValidURL(quoteContent)) {
             const iframeElement = document.createElement("iframe");
