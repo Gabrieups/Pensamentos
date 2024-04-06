@@ -55,10 +55,20 @@ function displayRandomQuote() {
             quoteElement.style.alignItems = "center";
             quoteElement.appendChild(iframeElement);
             textDiv.style.backgroundColor = "transparent";
-        } else {
-            quoteElement.textContent = quoteContent;
-            textDiv.style.backgroundColor = "#fff";
         }
+
+        else {
+            if (quoteContent.includes("\n")) {
+                const poemFormatted = quoteContent.split('\n').join('<br>');
+                quoteElement.innerHTML = poemFormatted;
+                textDiv.style.backgroundColor = "#fff";
+                quoteElement.style.textAlign = "left";
+
+            } else {
+                quoteElement.textContent = quoteContent;
+                textDiv.style.backgroundColor = "#fff";
+            }
+        }        
         
         quoteElement.style.opacity = 1;
         textDiv.style.opacity = 1;

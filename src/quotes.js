@@ -36,6 +36,7 @@ const quotes = [
     "I can't seem to not need to need you",
     "I would love just to be stuck to your side, not with anybody else, anybody else",
     "Hoje vi as estrelas, me perdi um pouco, mas senti como se te encontrasse.",
+    "Você me veio de súbito, \nComo uma chuva que não avisa. \nNem as formigas poderiam prever \nE elas se afogariam... \nComo eu me afoguei.",
     {image: "src/elisa.jpg"},
-    {image: "src/us.jpg"}
+    {image: "src/us.jpg"},
 ];

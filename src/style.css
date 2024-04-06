@@ -62,7 +62,7 @@ h1 {
     align-items: center;
     background-color: rgb(10, 10, 10, 0);
     width: 30vw;
-    height: 8vw;
+    min-height: 8vw;
     border-radius: .5vw;
 }
 

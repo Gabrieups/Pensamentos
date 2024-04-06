@@ -64,7 +64,7 @@
         align-items: center;
         background-color: rgb(10, 10, 10, 0);
         width: 55vw;
-        height: 20vw;
+        min-height: 20vw;
         border-radius: 2vw;
     }
 
