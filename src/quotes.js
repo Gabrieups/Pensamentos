@@ -40,5 +40,6 @@ const quotes = [
     "Você me veio de súbito, \nComo uma chuva que não avisa. \nNem as formigas poderiam prever \nE elas se afogariam... \nComo eu me afoguei.",
     {image: "src/elisa.jpg"},
     {image: "src/us.jpg"},
-    {video: "src/dancinha.mp4"}
+    {video: "src/dancinha.mp4"},
+    "https://open.spotify.com/embed/track/1lb0KfG9EyfSBsEifTUtXY?utm_source=generator"
 ];
